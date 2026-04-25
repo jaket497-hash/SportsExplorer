@@ -1,3 +1,4 @@
+const sportData = {};
 // ---------------------- NBA (Atlantic Division) ----------------------
 if (!sportData["NBA"]) sportData["NBA"] = {};
 
