@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sports Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Sports Explorer</h1>
+    <input id="searchInput" type="text" placeholder="Search teams, players, leagues..." />
+  </header>
 
+  <main class="main">
+    <aside class="sidebar">
+      <h2>Sports</h2>
+      <ul id="sportList"></ul>
+    </aside>
+
+    <section class="content">
+      <div id="breadcrumb" class="breadcrumb"></div>
+      <div id="cardsContainer" class="cards"></div>
+      <div id="detailsContainer" class="details hidden"></div>
+    </section>
+  </main>
+
+  <script src="sportData.js"></script> <!-- your big data file -->
+  <script src="app.js"></script>
+</body>
+</html>
