@@ -18,7 +18,7 @@ Object.assign(sportData["NBA"], {
     },
 
     "Brooklyn Nets": {
-        logo: "https://upload.wikimedia.org/wikipedia/en/4/44/Brooklyn_Nets_newlogo.svg",
+        logo: "https://upload.wikimedia.org/wikipedia/en/4/44/Brooklyn_Nets_newLogo.svg",
         conference: "Eastern Conference",
         division: "Atlantic Division",
         colors: "Black & White",
